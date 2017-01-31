@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+a.menuItem {
+  color: #4A4A4A;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 5%;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-decoration: none;
+}
+
+a.menuItem.selected {
+  /* ABOUT: */
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #363636;
+}
+
+a.menuItem:hover {
+  color: #363636;
+}
+
+a.menuItem:last-of-type {
+  margin-right: 10%;
+}
+
+body {
+  color: #4A4A4A;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 21px;
+}
+
+div#outerContainer {
+  height: 100%;
+  width: 100%;
+}
+
+div#content {
+  margin: 10%;
+}
+
+div#whiteBackground {
+  background: rgba(251,251,251,0.98);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  position: absolute;
+  left: 38%;
+  right: 4%;
+  top: 0;
+  width: 60%;
+}
+
+figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+figcaption {
+  color: #9B9B9B;
+  font-family: OpenSans-Italic;
+  font-size: 10px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 100%;
+}
+
+form#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > button {
+  background-color: #4A4A4A;
+  border: 1px solid #363636;
+  border-radius: 8px;
+  color: #E0E0E0;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  height: 60px;
+  margin-top: 5%;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+form > input, form > textarea {
+  border: solid 1px #e0e0e0;
+  border-radius: 8px;
+  color: #4A4A4A;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-bottom: 1%;
+  padding: 1rem;
+  width: 100%;
+}
+
+h1 { font-size: 21px; }
+
+h2 { font-size: 18px; }
+
+h3 { font-size: 14px; }
+
+h4 { font-size: 11px; }
+
+h5 { font-size: 9px; }
+
+h6 { font-size: 7px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4A4A4A;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  letter-spacing: 1.91px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background: url('../images/womanwithsmartphone.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Open Sans';
+}
+
+iframe {
+  border: none;
+}
+
+img#helloeveryone {
+  max-height: 240px;
+  width: auto;
+}
+
+li {
+  margin-bottom: 1%;
+}
+
+nav#menu {
+  border-bottom: 1px solid #F6F6F6;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  text-align: right;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 10%;
+}
